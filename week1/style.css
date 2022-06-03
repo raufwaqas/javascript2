@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light: #d9d9d9;
+}
+
+body {
+  background-color: #0F223B;
+  font-family: 'Jost', sans-serif;
+  color: #c7c7c7;
+  background-image: url(./img/bg.jpg);
+
+}
+
+ul li {
+  list-style-type: none;
+}
+
+#slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  height: 25%;
+}
+
+.sliderImage {
+  width: 100%;
+}
+
+.book_img {
+  height: 500px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 36;
+  font-weight: 500;
+  line-height: 36px;
+  color: #eddac4;
+  letter-spacing: 0.5px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  font-weight: 200;
+  font-size: 16;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+li {
+  align-items: center;
+  text-align: center;
+}
+
+.bookShelf {
+  padding: 25px;
+}
+
+.bookTitle {
+  display: flex;
+  justify-content: center;
+}
