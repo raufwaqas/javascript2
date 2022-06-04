@@ -61,7 +61,7 @@ const books = {
     author: 'Chinua Achebe',
   },
   thinking_with_type: {
-    title: 'Ellen Lupton',
+    title: 'Thinking with Type',
     language: 'English',
     author: 'Ellen Lupton',
   },
